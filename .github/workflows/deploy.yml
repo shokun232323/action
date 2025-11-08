@@ -15,7 +15,7 @@ jobs:
     steps:
       # 1. เพิ่มขีด "-" หน้า step แรก
       - name: Checkout repository
-        uses: actions/checkout@v3 # (ลบ "," ออก)
+        uses: action/checkout@v3 # (ลบ "," ออก)
 
       # 2. เพิ่มขีด "-" หน้า step ที่สอง
       # (ขั้นตอนนี้จะสำเร็จ เพราะ Trust Policy อนุญาตให้ Repository ของคุณ Assume Role ได้)
